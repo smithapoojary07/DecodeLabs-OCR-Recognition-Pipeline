@@ -1,0 +1,1 @@
+DecodeLabs Artificial Intelligence Project 4 - Basic OCR Recognition Machine perception turns visual data into structured, machine-readable intelligence. CONFIDENCE TARGET: 80% OCR TEST SAMPLE 2026

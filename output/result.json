@@ -1,0 +1,226 @@
+{
+  "project": "DecodeLabs Artificial Intelligence Project 4",
+  "task": "Basic Image/Text Recognition (OCR)",
+  "library": "pytesseract + OpenCV",
+  "preprocessing": [
+    "grayscale",
+    "Gaussian blur",
+    "deskew",
+    "adaptive thresholding"
+  ],
+  "psm": 6,
+  "confidence_threshold_percent": 80.0,
+  "mean_confidence_percent": 94.36,
+  "recognized_text": "DecodeLabs Artificial Intelligence Project 4 - Basic OCR Recognition Machine perception turns visual data into structured, machine-readable intelligence. CONFIDENCE TARGET: 80% OCR TEST SAMPLE 2026",
+  "word_count": 25,
+  "validation": {
+    "library_integration": true,
+    "preprocessing_integrity": true,
+    "accuracy_benchmarking": true,
+    "visual_confirmation": true,
+    "overall": "PASS"
+  },
+  "deskew_angle_degrees": -0.0,
+  "words": [
+    {
+      "text": "DecodeLabs",
+      "confidence": 91.0,
+      "x": 84,
+      "y": 88,
+      "w": 288,
+      "h": 39
+    },
+    {
+      "text": "Artificial",
+      "confidence": 93.0,
+      "x": 389,
+      "y": 88,
+      "w": 194,
+      "h": 39
+    },
+    {
+      "text": "Intelligence",
+      "confidence": 96.0,
+      "x": 606,
+      "y": 88,
+      "w": 274,
+      "h": 47
+    },
+    {
+      "text": "Project",
+      "confidence": 96.0,
+      "x": 84,
+      "y": 178,
+      "w": 160,
+      "h": 48
+    },
+    {
+      "text": "4",
+      "confidence": 92.0,
+      "x": 262,
+      "y": 179,
+      "w": 27,
+      "h": 37
+    },
+    {
+      "text": "-",
+      "confidence": 92.0,
+      "x": 306,
+      "y": 199,
+      "w": 15,
+      "h": 6
+    },
+    {
+      "text": "Basic",
+      "confidence": 95.0,
+      "x": 342,
+      "y": 178,
+      "w": 121,
+      "h": 39
+    },
+    {
+      "text": "OCR",
+      "confidence": 96.0,
+      "x": 482,
+      "y": 179,
+      "w": 102,
+      "h": 37
+    },
+    {
+      "text": "Recognition",
+      "confidence": 96.0,
+      "x": 604,
+      "y": 178,
+      "w": 276,
+      "h": 47
+    },
+    {
+      "text": "Machine",
+      "confidence": 95.0,
+      "x": 82,
+      "y": 275,
+      "w": 131,
+      "h": 26
+    },
+    {
+      "text": "perception",
+      "confidence": 95.0,
+      "x": 226,
+      "y": 275,
+      "w": 168,
+      "h": 33
+    },
+    {
+      "text": "turns",
+      "confidence": 96.0,
+      "x": 406,
+      "y": 276,
+      "w": 81,
+      "h": 25
+    },
+    {
+      "text": "visual",
+      "confidence": 86.0,
+      "x": 498,
+      "y": 275,
+      "w": 92,
+      "h": 26
+    },
+    {
+      "text": "data",
+      "confidence": 96.0,
+      "x": 603,
+      "y": 275,
+      "w": 68,
+      "h": 26
+    },
+    {
+      "text": "into",
+      "confidence": 90.0,
+      "x": 686,
+      "y": 275,
+      "w": 59,
+      "h": 26
+    },
+    {
+      "text": "structured,",
+      "confidence": 96.0,
+      "x": 81,
+      "y": 330,
+      "w": 173,
+      "h": 30
+    },
+    {
+      "text": "machine-readable",
+      "confidence": 96.0,
+      "x": 268,
+      "y": 330,
+      "w": 287,
+      "h": 26
+    },
+    {
+      "text": "intelligence.",
+      "confidence": 91.0,
+      "x": 568,
+      "y": 330,
+      "w": 191,
+      "h": 33
+    },
+    {
+      "text": "CONFIDENCE",
+      "confidence": 96.0,
+      "x": 81,
+      "y": 436,
+      "w": 208,
+      "h": 25
+    },
+    {
+      "text": "TARGET:",
+      "confidence": 96.0,
+      "x": 300,
+      "y": 436,
+      "w": 131,
+      "h": 25
+    },
+    {
+      "text": "80%",
+      "confidence": 96.0,
+      "x": 446,
+      "y": 436,
+      "w": 68,
+      "h": 25
+    },
+    {
+      "text": "OCR",
+      "confidence": 96.0,
+      "x": 81,
+      "y": 506,
+      "w": 69,
+      "h": 25
+    },
+    {
+      "text": "TEST",
+      "confidence": 96.0,
+      "x": 159,
+      "y": 506,
+      "w": 82,
+      "h": 25
+    },
+    {
+      "text": "SAMPLE",
+      "confidence": 96.0,
+      "x": 251,
+      "y": 506,
+      "w": 125,
+      "h": 25
+    },
+    {
+      "text": "2026",
+      "confidence": 95.0,
+      "x": 389,
+      "y": 506,
+      "w": 79,
+      "h": 25
+    }
+  ]
+}
